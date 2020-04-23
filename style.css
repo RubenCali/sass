@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    background-color: #47a;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+nav a:hover{
+    background-color: #355e86;
+}
+aside{
+    background-color: #aac4dd;
+}
+footer{
+    background-color: #47a;
+}

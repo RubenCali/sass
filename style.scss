@@ -1,0 +1,24 @@
+$hoofdkleur: #47a;
+$lichter: lighten($hoofdkleur, 30%);
+$donkerder: darken($hoofdkleur, 10%);
+
+body {
+    font-family: sans-serif;
+}
+nav {
+    background-color: $hoofdkleur;
+    ul{
+        list-style-type: none;
+    }
+    a{
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        &:hover{
+            background-color: $donkerder;
+        }
+    }
+}
+aside{
+    background-color: $lichter;
+}
